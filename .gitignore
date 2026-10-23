@@ -1,0 +1,21 @@
+# weights, data and generated media
+wieghts/
+weights/
+VBench/
+output/
+outputs/
+logs/
+tmp/
+*.mp4
+*.safetensors
+*.pth
+*.ckpt
+# python
+__pycache__/
+*.pyc
+.venvs/
+*.egg-info/
+# editors / OS
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,467 @@
+[
+  {
+    "prompt_en": "a cow running to join a herd of its kind",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "A cow is seen running across a grassy field, moving towards a herd of other cows in the distance. The scene is bathed in the golden light of a setting sun, creating a warm and serene atmosphere. The cow, with a shiny brown coat and strong build, moves with a determined pace, its ears perked up as it approaches the herd. Dust rises gently in its wake, adding a sense of motion to the scene. The camera smoothly pans to follow the cow's movement, capturing the herd growing larger as it nears."
+  },
+  {
+    "prompt_en": "a car turning a corner",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "A sleek, silver car gracefully turns a sharp corner on a narrow, winding road. As it maneuvers the curve, its tires grip the asphalt firmly, creating a smooth yet dynamic motion. The car's shiny exterior reflects the surrounding lush greenery, adding a vibrant contrast to the scene. The camera follows the car's movement from behind, capturing the precision and agility of the vehicle as it completes the turn."
+  },
+  {
+    "prompt_en": "a boat sailing smoothly on a calm lake",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "A small wooden boat with a single sail glides smoothly across the surface of a serene lake. The water is exceptionally calm, reflecting the soft hues of a clear blue sky. The boat is painted in soft, earthy tones, and its sail gently billows in the light breeze. As the boat moves steadily, the peacefulness of the scene is complemented by the ripples forming behind it. The camera pans slowly from left to right, capturing the entire scene, including the lush greenery along the shoreline in the distance."
+  },
+  {
+    "prompt_en": "jail cell",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "jail cell"
+        }
+      }
+    },
+    "refined_prompt": "The scene captures the inside of a dimly lit jail cell, with shadows cast across the worn concrete walls. In the center, a simple metal bed with a thin mattress sits against one wall, with a gray wool blanket neatly folded at the foot. A small metal sink and toilet unit are visible in the corner, under a faint flickering light. The barred window high on the opposite wall lets in a sliver of light, creating a somber, confined atmosphere. The camera slowly pans across the cell, emphasizing its stark, cold environment."
+  },
+  {
+    "prompt_en": "indoor museum",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "indoor museum"
+        }
+      }
+    },
+    "refined_prompt": "In an indoor museum gallery, a variety of artifacts are on display. The room is bathed in soft, ambient lighting that highlights the intricate details of the exhibits. One prominent exhibit consists of a series of ancient pottery items, each resting on a pedestal with a descriptive plaque. The walls are adorned with framed paintings of historical scenes, adding a touch of art to the space. The camera gently pans across the room, capturing the elegance and sophistication of the museum's ensemble, while the polished wooden floors reflect the surrounding exhibits."
+  },
+  {
+    "prompt_en": "bathroom",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "bathroom"
+        }
+      }
+    },
+    "refined_prompt": "The video opens with a view of a modern bathroom, featuring a sleek, white countertop with a stylish sink. Above the sink, a large, rectangular mirror is mounted on the wall, reflecting the soft, ambient light from an overhead fixture. To the right of the sink, a neatly folded stack of white towels is arranged, and a small, elegantly potted plant adds a touch of greenery to the setting. The camera gently pans over the bathroom, highlighting the polished chrome fixtures and the clean, minimalist design of the space."
+  },
+  {
+    "prompt_en": "A fat rabbit wearing a purple robe walking through a fantasy landscape.",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "A plump rabbit wearing a luxurious purple robe saunters through an enchanting fantasy landscape. The rabbit's robe, adorned with intricate golden patterns, sways gently with each step. The landscape is dotted with vibrant, oversized mushrooms and luminescent flowers that cast a magical glow. As the rabbit walks towards the camera, a gentle breeze causes the robe to flutter slightly. The camera smoothly follows the rabbit, capturing the whimsical scenery and enhancing the wonder of the journey."
+  },
+  {
+    "prompt_en": "A storm trooper vacuuming the beach.",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "A stormtrooper, clad in the iconic white armor, is vacuuming the sandy beach. The helmet obscures the face, adding to the robotic appearance, while the armor contrasts sharply against the soft, golden sand. The vacuum cleaner is a sleek, futuristic model, with a long hose extending to the stormtrooper's grip. The sky is overcast, creating an intriguing atmosphere as the stormtrooper moves methodically along the shoreline, leaving smooth paths in the sand. The camera captures this unique scene from a low angle, emphasizing the surreal nature of the moment."
+  },
+  {
+    "prompt_en": "An astronaut flying in space.",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "In the vast expanse of space, an astronaut is effortlessly floating, surrounded by the stars and the distant glow of a nearby planet. The astronaut is clad in a sleek, white space suit that reflects the faint light from the planet, creating a striking contrast against the dark void of space. Gently moving through the zero-gravity environment, the astronaut's visor gleams as he gazes at the universe around him. The camera smoothly orbits around the astronaut, capturing the serene and awe-inspiring beauty of this cosmic journey."
+  },
+  {
+    "prompt_en": "A panda standing on a surfboard in the ocean in sunset.",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "A panda stands confidently on a surfboard, riding the gentle waves of the ocean as the sun sets in the background. The golden hues of the sunset reflect off the water, creating a warm and serene atmosphere. The panda's fur appears slightly tussled by the breeze, and its black and white coat contrasts beautifully with the vibrant, colorful sky. The surfboard bobs gracefully with the motion of the waves, and the camera captures the scene from a low angle, moving slightly to emphasize the panda's playful stance on the surfboard."
+  },
+  {
+    "prompt_en": "an ice cream is melting on the table.",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "A single scoop of ice cream, a rich chocolate color, is placed on a wooden table. The ice cream is partially melted, forming a small puddle around the base of the scoop. Soft lighting lends a warm glow to the scene, highlighting the creamy texture. The camera gently circles around the ice cream, focusing on the smooth melting patterns and the wooden texture of the table surface. A hint of sunlight glints off the melting edges, accentuating the dessert's inviting appearance."
+  },
+  {
+    "prompt_en": "An artist brush painting on a canvas close up.",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "A close-up view captures an artist's hand skillfully guiding a brush on a canvas. The brush, finely tipped, is delicately applying vibrant strokes of blue and green paint. The canvas texture is visible, with the fresh paint glistening slightly in the light. The hand appears steady and focused, with subtle movements as the artist carefully adds details. The lighting is soft, highlighting the colors and emphasizing the artist's careful technique. The camera remains tightly focused on the brush and canvas, creating an intimate and dynamic view of the painting process."
+  },
+  {
+    "prompt_en": "a knife",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "knife"
+      }
+    },
+    "refined_prompt": "A gleaming kitchen knife is placed on a cutting board in a brightly lit kitchen. The knife features a polished stainless steel blade with a sharp edge, and its handle is made of sleek, dark wood with visible grain patterns. The light reflects off the blade, highlighting its sharpness and precision. The scene is set in a crisp, clean kitchen environment, with subtle shadows accentuating the knife's form. The camera slowly moves around the knife, showcasing its contours and craftsmanship."
+  },
+  {
+    "prompt_en": "a baseball bat",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "baseball bat"
+      }
+    },
+    "refined_prompt": "A close-up view showcases a polished wooden baseball bat lying on a soft patch of grass. The bat's smooth surface glistens under the soft, ambient sunlight filtering from above, highlighting its rich wood grain. The camera slowly pans from the handle to the barrel, capturing the bat's sleek design and glossy finish. The gentle sway of nearby blades of grass adds a touch of natural elegance to the scene."
+  },
+  {
+    "prompt_en": "a cup",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "cup"
+      }
+    },
+    "refined_prompt": "A close-up shot focuses on a ceramic coffee cup with a sleek, white finish, sitting on a smooth wooden surface. Steam rises gently from the hot coffee inside, creating a warm and inviting atmosphere. The sunlight filters in from a nearby window, casting a soft, natural light on the scene and highlighting the cup's glossy texture. The camera slowly pans around the cup, capturing its elegant handle and the subtle shadows it casts on the table."
+  },
+  {
+    "prompt_en": "a surfboard and a tennis racket",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "surfboard and tennis racket"
+      }
+    },
+    "refined_prompt": "A surfboard and a tennis racket are placed on a sandy beach. The surfboard, with a shiny blue and white design, lies flat with its nose pointing towards the ocean, highlighting the sand's texture around it. Just beside it, the tennis racket, with its black frame and tightly strung strings, rests angled slightly upward, and small pebbles surround its handle. Both objects are illuminated by the warm glow of the setting sun, casting soft shadows onto the sand. The camera pans lightly from left to right, capturing the serene beach atmosphere."
+  },
+  {
+    "prompt_en": "a toaster and a teddy bear",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "toaster and teddy bear"
+      }
+    },
+    "refined_prompt": "On a kitchen countertop, a shiny stainless steel toaster is positioned next to a plush teddy bear. The toaster has two slices of bread popping up, with steam gently rising from them, indicating they are freshly toasted. The teddy bear, with soft brown fur and a cheerful expression, sits beside the toaster, as if watching the toasting process. Natural sunlight streams in through a nearby window, creating a warm and inviting atmosphere. The camera subtly zooms in to capture the fine details of the teddy bear's fur and the toaster's reflective surface."
+  },
+  {
+    "prompt_en": "a train and a boat",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "train and boat"
+      }
+    },
+    "refined_prompt": "A sleek, modern train moves briskly along parallel tracks, heading towards the camera. Its shiny exterior reflects the bright daylight, and its windows glint in the sun. Meanwhile, a small, vibrant boat drifts gently on a nearby calm river, moving slightly to the left in the frame. The boat's colorful hull contrasts with the earthy tones of the riverbank. The camera pans slowly from right to left, capturing both the rhythmic motion of the train and the gentle sway of the boat in harmony with the serene surroundings."
+  },
+  {
+    "prompt_en": "a yellow car",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "yellow"
+      }
+    },
+    "refined_prompt": "A bright yellow car is parked diagonally on a sunlit street, its glossy surface reflecting the mid-morning sun. The car's sleek design, with smooth curves and shining chrome accents, highlights its modern style. A gentle breeze causes nearby trees to cast subtle, shifting shadows on the vehicle. The camera pans slowly from the front of the car to the side, capturing the striking color and the car's elegant lines."
+  },
+  {
+    "prompt_en": "a yellow bird",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "yellow"
+      }
+    },
+    "refined_prompt": "A vibrant yellow bird is perched on a delicate branch. The bird's feathers glisten in the soft sunlight, showcasing its lively yellow hue. The branch gently sways as the bird shifts its position, revealing its small, attentive eyes and sleek beak. The background is a soft blur of green foliage, adding to the serene and natural atmosphere. The camera slowly zooms in to highlight the intricate details of the bird's feathers and its delicate movements."
+  },
+  {
+    "prompt_en": "a black bird",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "black"
+      }
+    },
+    "refined_prompt": "A sleek black bird is perched gracefully on a thin branch, its glossy feathers shimmering in the sunlight. The bird tilts its head slightly, showcasing its sharp, inquisitive eyes and sleek beak. The surrounding leaves gently sway in the breeze, creating a peaceful atmosphere. The camera slowly zooms in, capturing the intricate details of the bird's plumage and the subtle movements of the branch."
+  },
+  {
+    "prompt_en": "a vase on the right of scissors, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "vase",
+          "object_b": "scissors",
+          "relationship": "on the right of"
+        }
+      }
+    },
+    "refined_prompt": "In the foreground, a pair of scissors is positioned on the left side of the frame. The scissors are open, showcasing their sleek metallic blades. To the right of the scissors, a stylish vase stands elegantly. The vase is of medium height with a smooth, glossy surface and a subtle pattern around its midsection. It is empty, emphasizing its graceful form against a soft background. The lighting is gentle, casting faint shadows and highlighting the contrast between the metallic sheen of the scissors and the polished texture of the vase. The camera remains steady, capturing a clear frontal view of both objects."
+  },
+  {
+    "prompt_en": "a sheep on the left of a cow, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "sheep",
+          "object_b": "cow",
+          "relationship": "on the left of"
+        }
+      }
+    },
+    "refined_prompt": "In a serene rural setting, a fluffy white sheep stands on the left side of a large, gentle-eyed cow. The scene is captured from a front view, with both animals calmly facing the camera. The woolly texture of the sheep contrasts with the cow's smooth, dark coat, creating a charming and picturesque image. The ground beneath them is covered in short green grass, and the light is soft, illuminating their fur and features beautifully. The atmosphere is peaceful and pastoral, evoking a sense of harmony and tranquility in this natural setting."
+  },
+  {
+    "prompt_en": "a boat on the left of an airplane, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "boat",
+          "object_b": "airplane",
+          "relationship": "on the left of"
+        }
+      }
+    },
+    "refined_prompt": "In the scene, a small boat is visible to the left of a large airplane, both facing forward. The airplane dominates the background with its sleek, streamlined body and massive wings, while the boat appears smaller but equally striking, floating on calm water. The boat is characterized by its white hull and details on the sides, contrasting against the blue water below. The camera maintains a centered front view, capturing the juxtaposition between the two different vehicles. The lighting is soft, suggesting either early morning or late afternoon, adding a serene and balanced atmosphere to the composition."
+  },
+  {
+    "prompt_en": "science museum",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "science museum"
+        }
+      }
+    },
+    "refined_prompt": "Inside a science museum, the camera gently pans across an engaging exhibit. In the foreground, a large, interactive display showcases a glowing model of the solar system. Planets of various sizes orbit around a radiant sun, with each one differing in color and size, suspended from thin wires to create a floating effect. In the background, detailed informational panels provide facts about the planets and the universe. The ambient lighting is dim, emphasizing the illuminated features of the exhibit and creating an atmosphere filled with curiosity and discovery. The camera subtly moves forward, focusing on the rotating planets, highlighting the awe-inspiring design."
+  },
+  {
+    "prompt_en": "iceberg",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "iceberg"
+        }
+      }
+    },
+    "refined_prompt": "A large, majestic iceberg floats serenely in the open sea under a clear blue sky. The iceberg is massive, with jagged peaks and a surface that glistens in the sun. The surrounding water is a deep blue, contrasting sharply with the icy white and light blue hues of the iceberg. The camera slowly pans to the right, capturing the iceberg's impressive size and intricate shapes as it drifts gently away from the camera. The atmosphere is crisp and tranquil, with the gentle sound of the waves lapping against the iceberg."
+  },
+  {
+    "prompt_en": "train station platform",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "train station platform"
+        }
+      }
+    },
+    "refined_prompt": "The video showcases a bustling train station platform during the day. The platform is lined with tracks on one side, while on the other side, there are signs and benches for passengers. A sleek, modern train is stationary, its doors open for boarding. The light shines down from overhead, illuminating the platform and highlighting the people boarding the train. Commuters hurry along the platform, some carrying briefcases and backpacks, while others pull luggage behind them. The atmosphere feels busy and dynamic, capturing the essence of travel and movement. The camera smoothly pans across the scene, capturing both the train and the buzz of activity on the platform."
+  },
+  {
+    "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, featuring a steady and smooth perspective",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "The video presents a steady and smooth perspective of a beautiful coastal beach in spring. Gentle waves lap against the soft, golden sand, creating a soothing and peaceful atmosphere. The sun shines down warmly, highlighting the fresh greenery along the shoreline and the clear, sparkling water. Seagulls can occasionally be seen flying over the ocean in the distance, enhancing the tranquil scene with a sense of lively nature. The camera gently glides along the beach, offering a seamless view of the serene interaction between land and sea."
+  },
+  {
+    "prompt_en": "A cute happy Corgi playing in park, sunset, zoom in",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "A cute, happy Corgi with a fluffy coat and short legs is playfully frolicking in a green park during sunset. The warm golden hues of the setting sun bathe the scene in a gentle, inviting glow. The Corgi's tail wags excitedly as it trots across the grass, ears perked up and eyes shining with joy. The camera starts with a wide view of the park and then smoothly zooms in to capture a close-up of the Corgi's cheerful expression and the way its fur catches the light."
+  },
+  {
+    "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, pan right",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "The video begins with a stunning coastal beach scene during springtime, where gentle waves are lapping rhythmically onto the soft, golden sand. The lighting is bright, with the sunlight casting a warm, inviting glow on the ocean's surface. As the camera slowly pans to the right, the horizon line gracefully shifts, revealing more of the idyllic coastline. Lush greenery borders the sand, creating a vivid contrast with the deep blue of the water. The atmosphere is serene and refreshing, capturing the tranquil essence of a perfect spring day by the sea."
+  },
+  {
+    "prompt_en": "happy dog wearing a yellow turtleneck, studio, portrait, facing camera, dark background",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "A cheerful dog sits facing the camera in a studio setting, wearing an adorable yellow turtleneck that accentuates its joyful expression. The dog's eyes are bright and lively, and its mouth is open in what looks like a happy smile, creating an endearing portrait. The dark background contrasts beautifully with the bright color of the turtleneck, highlighting the dog's fur and features. The camera keeps a steady focus on the dog's face, capturing the warmth and personality in its expression."
+  },
+  {
+    "prompt_en": "Yellow flowers swing in the wind",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "A cluster of vibrant yellow flowers is gently swaying in the wind, set against a backdrop of lush green foliage. The petals of the flowers catch the sunlight, creating a warm and inviting atmosphere. A gentle breeze causes them to sway rhythmically, and their shadows dance lightly across the surrounding leaves. The camera captures a subtle tilt and pan movement, following the flow of the flowers as they move, enhancing the tranquil and serene mood of the scene."
+  },
+  {
+    "prompt_en": "Cinematic shot of Van Gogh's selfie, Van Gogh style",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "The video opens with a cinematic shot of a painting styled in Van Gogh's signature technique, featuring bold brushstrokes and vibrant colors. The painting depicts Van Gogh himself, with tousled auburn hair and an intense gaze. He is dressed in a blue coat, which contrasts with the swirling background of deep blues and yellows. The camera slowly zooms in on his expressive face, highlighting the texture and depth of the brushwork. The lighting emphasizes the rich colors and intricate details of the artwork, creating a captivating and artistic atmosphere."
+  },
+  {
+    "prompt_en": "A person is bending back",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A woman is gracefully bending backwards, performing a deep backbend on a grassy field. She is wearing a form-fitting athletic outfit that accentuates her curves and flexibility. Her long hair cascades down towards the ground, creating a captivating silhouette against a soft evening light. The camera slowly circles around her, providing a dynamic view of her form and the serene nature setting. The atmosphere is tranquil, with a gentle breeze rustling the surrounding grass."
+  },
+  {
+    "prompt_en": "A person is eating watermelon",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A woman is sitting at a table, enjoying a slice of juicy watermelon. She has long, flowing hair and is wearing a colorful summer dress that complements the bright, sunlit atmosphere around her. The woman holds the wedge with both hands, taking a bite, as the watermelon juice glistens in the sunlight. Her expression is one of contentment and pleasure as she savors the refreshing treat. The camera gently zooms in to capture her delighted face and the vibrant colors of the watermelon."
+  },
+  {
+    "prompt_en": "A person is clay pottery making",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A woman is skillfully making clay pottery in a serene workshop. She is seated at a pottery wheel, wearing a simple apron over her clothes, and she has her hair neatly tied back. Her hands are gently shaping a lump of clay as the wheel spins, forming it into a vessel. The soft light in the room highlights her focused expression and the texture of the clay. Shelves filled with completed pottery pieces line the background, adding to the artistic atmosphere. The camera slowly circles around her to capture different angles of her careful craftsmanship."
+  },
+  {
+    "prompt_en": "A tranquil tableau of beneath the shade of a solitary oak tree, an old wooden park bench sat patiently",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "Beneath the expansive shade of a solitary oak tree, a weathered wooden park bench rests quietly on the lush grass. The bench, with its old, rustic charm, reveals the marks of time and weathering on its surface. Sunlight filters through the dense canopy of leaves, casting dappled patterns of light and shadow on the bench and the ground around it. The atmosphere is serene and peaceful, enhancing the sense of solitude. The camera gently pans from the top of the oak tree down to the bench, highlighting the contrasting texture of the tree bark and the worn wood."
+  },
+  {
+    "prompt_en": "In a still frame, in the picturesque square, a Gothic-style lamppost adorned with intricate stone carvings added a touch of medieval charm to the setting",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "In a picturesque square, a Gothic-style lamppost stands prominently in the frame. The lamppost features intricate stone carvings that enhance its medieval charm, with ornate details that showcase architectural elegance. The square is softly illuminated by the warm glow of the lamppost, creating an inviting and atmospheric scene that captures the essence of historic beauty. The camera is positioned to provide a clear, focused view of the lamppost, emphasizing its detailed craftsmanship."
+  },
+  {
+    "prompt_en": "A tranquil tableau of palace",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "The camera slowly approaches a grand and ornate palace, capturing its majestic architecture bathed in the golden light of the setting sun. The palace features intricately designed facades and towering spires that reach towards the sky. Surrounding the palace are beautifully manicured gardens, with lush greenery and colorful flowers adding to the tranquil scene. The atmosphere is serene and peaceful, with soft shadows enhancing the grandeur of the building. The camera gently pans to the side, offering a broader view of the palace and its picturesque surroundings."
+  },
+  {
+    "prompt_en": "a car slowing down to stop",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "A sleek, silver car is driving along a tree-lined road, gradually slowing down to a complete stop. The car's headlights reflect off the road as it comes to a halt, with the lush green trees providing a serene backdrop. The camera moves alongside the car, capturing its smooth deceleration as it approaches the camera and stops. The sunlight filters through the trees, casting dappled patterns on the road. The gentle rolling of the car emphasizes the peaceful, calm atmosphere of the scene."
+  },
+  {
+    "prompt_en": "a train speeding down the tracks",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "A sleek, modern train is speeding down the tracks with great velocity, its streamlined design enhanced by the sunlight glinting off its metallic surface. The train moves swiftly from the left side of the frame towards the right, with the tracks extending into the distance. The landscape around the tracks is blurred due to the train's speed, emphasizing its rapid motion. The camera follows the train smoothly as it continues down the line, creating an exhilarating sense of movement."
+  },
+  {
+    "prompt_en": "a bus stuck in traffic during rush hour",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "A bus is stuck in heavy traffic during rush hour, surrounded by a dense line of vehicles on all sides. The bus is painted in bright colors and stands out among the other cars. Inside, passengers can be seen through the windows, some appearing restless and others absorbed in their phones or books. The city skyline is faintly visible in the background, with buildings reflecting the golden hues of the setting sun. The scene is lively with the hustle and bustle typical of a busy urban environment, while horns occasionally blare, adding to the bustling atmosphere."
+  },
+  {
+    "prompt_en": "a bicycle slowing down to stop",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "A sleek bicycle with shiny metallic frames approaches the camera, gradually slowing down. The rider is a young man wearing a fitted black T-shirt and dark jeans. His expression is focused as he gently squeezes the brakes, causing the bicycle's wheels to gradually come to a halt on the pavement. The setting sun casts a golden hue over the scene, highlighting the bicycle's details. The camera follows the bicycle's movement, smoothly panning until the bicycle comes to a complete stop."
+  },
+  {
+    "prompt_en": "an elephant taking a peaceful walk",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "An elephant is taking a peaceful walk along a dirt path surrounded by tall grass and scattered trees. The camera follows smoothly alongside the elephant, capturing its gentle and rhythmic movements. The sun casts a golden light over the scene, creating a serene and warm atmosphere. The elephant's large, graceful steps create soft thuds on the ground, and its ears gently flap as it moves forward, giving an impression of calmness and tranquility in the natural surroundings."
+  },
+  {
+    "prompt_en": "a dog enjoying a peaceful walk",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "A fluffy golden retriever is enjoying a leisurely walk along a sunlit forest path. The dog trots contentedly, with its tail wagging gently and ears perked up. Sunlight filters through the trees, casting dappled patterns on the ground. The golden retriever occasionally sniffs the surrounding foliage, clearly relishing the tranquil environment. The scene captures the serene ambiance of a peaceful nature walk, enhanced by the gentle rustling of leaves in the light breeze. The camera follows the dog from behind, maintaining a steady focus as it gracefully moves down the path."
+  },
+  {
+    "prompt_en": "An astronaut flying in space, pixel art",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "pixel art"
+      }
+    },
+    "refined_prompt": "A pixel art scene depicts an astronaut floating amidst the vastness of space. The astronaut's helmet reflects tiny glimmers of stars, and the suit has subtle shades of white and gray, capturing the classic space attire. The astronaut's arms and legs are slightly bent as if drifting in zero gravity, creating a sense of gentle movement. Around the astronaut, a backdrop of twinkling stars and small colorful planets add to the cosmic feel. The limited color palette typical of pixel art gives the scene a nostalgic, retro atmosphere. The camera subtly zooms in to emphasize the vastness of space around the lone astronaut."
+  },
+  {
+    "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, oil painting",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "oil painting"
+      }
+    },
+    "refined_prompt": "An oil painting depicts snow-blanketed rocky mountain peaks surrounding and casting shadows over deep, twisting canyons. The mountains rise majestically, their jagged edges creating a dramatic skyline against the clear sky. The snow cover adds a serene and pristine quality, while the canyons below weave through the elevated landscape, leading the viewer's eye on a journey through the rugged terrain. The contrast between the bright snow and the dark shadows in the canyons enhances the painting's depth and natural beauty. The brushstrokes capture the texture of the rocky surfaces and the soft, untouched snow, creating a breathtaking and immersive scene."
+  },
+  {
+    "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, Van Gogh style",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "Van Gogh style"
+      }
+    },
+    "refined_prompt": "The video opens with a majestic scene of snow-blanketed rocky mountain peaks encircling deep, twisting canyons. The mountains rise steeply against the soft, swirling snow, casting long, dramatic shadows into the canyons below. The scene is depicted in a Van Gogh style, with vivid, textured brushstrokes giving life to the snow and rocky formations. The canyons snake and bend through the elevated peaks, creating a mesmerizing pattern that draws the viewer's eye deeper into the mountain range. The camera gently glides over the landscape, providing a sweeping view of the intricate play of light and shadow. The atmosphere is serene yet dynamic, capturing the beauty of the natural world in an artistic interpretation."
+  }
+]

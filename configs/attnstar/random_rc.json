@@ -1,0 +1,20 @@
+{
+  "generator_config": {
+    "scoring": "attn",
+    "prune_attn_max_queries": 2048,
+    "prune_per_frame": true,
+    "prune_fusion_p": 4.0,
+    "prune_recover_mode": "interp_residual",
+    "prune_recover_code_mask": true,
+    "prune_recover_neighbors": 2,
+    "prune_recover_alpha": 0.5,
+    "prune_w_spatial": 0.0,
+    "prune_w_temporal": 1.0,
+    "prune_w_text": 1.0,
+    "prune_attn_text_query_gate": 0.0,
+    "prune_attn_temporal_mode": "anchor",
+    "prune_attn_temporal_anchors": 1024,
+    "prune_attn_random_select": true,
+    "variant": "random_rc"
+  }
+}

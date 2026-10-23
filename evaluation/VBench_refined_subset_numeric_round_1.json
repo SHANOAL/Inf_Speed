@@ -1,0 +1,467 @@
+[
+  {
+    "prompt_en": "a motorcycle slowing down to stop",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "A sleek, black motorcycle with shiny chrome accents approaches the camera from a distance along a scenic coastal road. The rider, a man in his mid-thirties wearing a fitted leather jacket, dark jeans, and a black helmet, gradually decelerates. As the motorcycle gets closer, its powerful engine's growl becomes more pronounced. The man slows the motorcycle to a stop, smoothly bringing it to a halt with the backdrop of a tranquil ocean visible in the background. The golden hour lighting casts a warm hue, accentuating the motorcycle's polished metal surfaces. The camera follows the man as he stops, capturing the serene moment."
+  },
+  {
+    "prompt_en": "a dog enjoying a peaceful walk",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "A fluffy golden retriever is enjoying a leisurely walk along a sunlit forest path. The dog trots contentedly, with its tail wagging gently and ears perked up. Sunlight filters through the trees, casting dappled patterns on the ground. The golden retriever occasionally sniffs the surrounding foliage, clearly relishing the tranquil environment. The scene captures the serene ambiance of a peaceful nature walk, enhanced by the gentle rustling of leaves in the light breeze. The camera follows the dog from behind, maintaining a steady focus as it gracefully moves down the path."
+  },
+  {
+    "prompt_en": "an airplane soaring through a clear blue sky",
+    "dimension": [
+      "subject_consistency"
+    ],
+    "refined_prompt": "An airplane is soaring gracefully through a clear blue sky, leaving behind a streak of jet contrails. The sunlight glistens off the airplane's metallic surface, highlighting its sleek design. As the camera follows the aircraft's path, it captures the serene expanse of the sky, emphasizing the airplane's steady and smooth movement across the vast openness. The winglets are subtly silhouetted against the brightness of the sun, adding to the aerial scene's elegance and tranquility."
+  },
+  {
+    "prompt_en": "castle",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "castle"
+        }
+      }
+    },
+    "refined_prompt": "The video captures a grand medieval castle, situated atop a rocky hill, with large stone walls and towering turrets reaching towards the sky. The camera glides smoothly from the base of the hill upwards, showcasing the imposing entrance gate and the detailed masonry of the structure. As the camera continues its ascent, it reveals flags fluttering gently in the breeze atop the towers. The setting sun bathes the scene in a golden light, adding a magical and enchanting ambiance to the castle's silhouette."
+  },
+  {
+    "prompt_en": "cafeteria",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "cafeteria"
+        }
+      }
+    },
+    "refined_prompt": "In a bustling cafeteria, tables with trays of food can be seen, surrounded by people chatting and enjoying their meals. The warm lighting creates a welcoming atmosphere, highlighting the variety of colorful dishes. In the foreground, a cheerful woman in her twenties is carrying a tray with a sandwich and a drink, while wearing a stylish blouse and jeans. Her hair is elegantly styled, and a bright smile graces her face as she looks towards the camera. Behind her, the cafeteria's customers engage in conversation, creating a lively and friendly environment. The camera pans slightly to follow the movement of the woman as she walks to a nearby table."
+  },
+  {
+    "prompt_en": "classroom",
+    "dimension": [
+      "background_consistency"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "classroom"
+        }
+      }
+    },
+    "refined_prompt": "The scene depicts a brightly lit classroom with neat rows of desks and chairs. The walls are adorned with colorful educational posters and a large, whiteboard at the front of the room. Sunlight streams through the large windows, casting a warm glow over the classroom. The camera pans slowly from left to right, capturing the organized desks and the inviting, cheerful atmosphere."
+  },
+  {
+    "prompt_en": "An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with umbrellas",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "An oil painting depicts a sophisticated couple dressed in elegant formal evening wear, caught in a heavy downpour on their way home. The man, handsome and poised, wears a classic black tuxedo with a crisp white shirt, holding a large black umbrella above them. The woman, charming and graceful, dons a stunning long evening gown that shimmers in the dim light of the streetlamps. Her hair is styled elegantly, and she clutches a small clutch purse. Rain cascades down in heavy sheets, creating a sense of urgency and movement in the scene. The street glistens with reflections of the couple and the surrounding lights, capturing the romantic and dramatic atmosphere of the rainy night. The brushstrokes convey the texture of the rain and the couple's clothing, adding depth and emotion to the painting."
+  },
+  {
+    "prompt_en": "Ashtray full of butts on table, smoke flowing on black background, close-up",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "A close-up view captures an ashtray overflowing with cigarette butts, resting on a dark table. Wisps of smoke gracefully rise and swirl against a solid black background, creating a sense of motion and atmosphere. The ashtray is detailed with a metallic sheen, reflecting light from the smoldering embers of the cigarette remnants. The scene is illuminated with soft, ambient lighting, highlighting the textures of the ashtray and the swirling smoke. The camera remains steady, focusing on the interplay between the smoke and the surrounding darkness."
+  },
+  {
+    "prompt_en": "Busy freeway at night.",
+    "dimension": [
+      "aesthetic_quality"
+    ],
+    "refined_prompt": "A busy freeway at night is seen from a high vantage point, showcasing a stream of vehicle headlights and taillights. The bright, white headlights of cars coming towards the camera contrast with the red taillights of vehicles moving away. The scene is illuminated by streetlights, casting a faint golden glow over the freeway. The overall atmosphere is bustling and dynamic, with cars weaving slightly as they maintain their paths in the various lanes. The camera smoothly pans along the freeway, capturing the continuous flow of traffic."
+  },
+  {
+    "prompt_en": "A cute happy Corgi playing in park, sunset",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "During sunset in a vibrant park setting, a cute and happy Corgi joyfully plays on a lush green lawn. The Corgi's fluffy coat glistens in the golden light, and its energetic tail wags enthusiastically as it runs around in circles. The dog's ears perk up as it pauses to sniff the air, capturing the playful and carefree essence of the moment. The camera smoothly follows the Corgi's playful movements, creating a warm and lively atmosphere with the sun low in the sky, casting long, soft shadows across the grass."
+  },
+  {
+    "prompt_en": "A fat rabbit wearing a purple robe walking through a fantasy landscape.",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "A plump rabbit wearing a luxurious purple robe saunters through an enchanting fantasy landscape. The rabbit's robe, adorned with intricate golden patterns, sways gently with each step. The landscape is dotted with vibrant, oversized mushrooms and luminescent flowers that cast a magical glow. As the rabbit walks towards the camera, a gentle breeze causes the robe to flutter slightly. The camera smoothly follows the rabbit, capturing the whimsical scenery and enhancing the wonder of the journey."
+  },
+  {
+    "prompt_en": "Few big purple plums rotating on the turntable. water drops appear on the skin during rotation. isolated on the white background. close-up. macro.",
+    "dimension": [
+      "imaging_quality"
+    ],
+    "refined_prompt": "A few large purple plums are rotating slowly on a white turntable, perfectly isolated against a white background. As they turn, water droplets begin to form on their smooth, vibrant skin, adding a fresh and juicy appearance. The camera captures a close-up, macro view, highlighting the rich color and texture of the plums, which glisten under bright lighting. As the turntable continues to rotate, the plums reveal their roundness and the play of light on their surfaces. The camera maintains a steady focus on the plums, enhancing their allure and freshness."
+  },
+  {
+    "prompt_en": "a banana",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "banana"
+      }
+    },
+    "refined_prompt": "A ripe banana is placed neatly on a wooden table surface, with its vibrant yellow peel contrasting against the warm brown of the wood. The banana has a gentle curve and a smooth texture, with one end slightly opening to reveal a hint of its creamy interior. Soft, natural light filters in from the side, highlighting the subtle spots on the peel and giving the banana a fresh and inviting appearance. The camera captures a close-up shot, slowly rotating to showcase the banana's appealing shape and color."
+  },
+  {
+    "prompt_en": "a fire hydrant",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "fire hydrant"
+      }
+    },
+    "refined_prompt": "A bright red fire hydrant stands on a patch of vibrant green grass. The hydrant's glossy surface reflects the sunlight, creating a vivid contrast with its surroundings. It features two side nozzles and a central cap, all securely fastened. The camera gently pans around the hydrant, providing a view from various angles. The background includes a blurred view of a sidewalk and a few scattered fallen leaves, adding a serene suburban atmosphere to the scene."
+  },
+  {
+    "prompt_en": "a toaster",
+    "dimension": [
+      "object_class"
+    ],
+    "auxiliary_info": {
+      "object_class": {
+        "object": "toaster"
+      }
+    },
+    "refined_prompt": "A shiny stainless steel toaster sits on a kitchen countertop, glowing softly under the warm kitchen lighting. The toaster features a simple design with two slots on top and a dial on its front for adjusting browning levels. The camera gradually moves closer, capturing the slight reflection of kitchen lights on its surface. The toaster appears ready for use, creating a cozy and inviting kitchen atmosphere."
+  },
+  {
+    "prompt_en": "a cup and a couch",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "cup and couch"
+      }
+    },
+    "refined_prompt": "A close-up shot shows a ceramic cup with an intricate floral design resting on the armrest of a plush couch. The cup holds steaming coffee, with wisps of steam curling up into the air, adding a cozy and inviting atmosphere. The couch is upholstered in a soft, textured fabric with a warm, neutral hue, contributing to an overall feeling of comfort. The camera captures the gentle play of light casting subtle shadows, creating a peaceful and serene mood in the setting."
+  },
+  {
+    "prompt_en": "a chair and a couch",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "chair and couch"
+      }
+    },
+    "refined_prompt": "A plush armchair and a cozy couch are positioned in a well-lit living room setting. The armchair, featuring a soft, velvet upholstery in a deep blue hue, is angled slightly towards the couch. Next to it, the couch is upholstered in a light gray fabric with large cushions and offers ample seating space. Between the two, a small, round coffee table holds a few decorative items, such as a vase with fresh flowers and a book. The soft lighting and warm atmosphere create an inviting and comfortable space. The camera gently pans to show the arrangement from a slightly different angle, enhancing the room's serene ambiance."
+  },
+  {
+    "prompt_en": "a backpack and an umbrella",
+    "dimension": [
+      "multiple_objects"
+    ],
+    "auxiliary_info": {
+      "multiple_objects": {
+        "object": "backpack and umbrella"
+      }
+    },
+    "refined_prompt": "A stylish backpack, made of leather with detailed stitching, is placed on a wooden bench. Next to the backpack, a compact, black umbrella with a sleek, glossy finish is leaning against the bench. The bench is situated in a serene park setting, with soft sunlight filtering through the trees, casting dappled shadows on the ground. The scene captures the tranquility and preparedness for a sudden change in weather, evoking a relaxed and peaceful atmosphere."
+  },
+  {
+    "prompt_en": "a black vase",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "black"
+      }
+    },
+    "refined_prompt": "A sleek, glossy black vase is placed on a wooden table, reflecting light softly across its smooth surface. The vase has a classic, elegant shape that widens at the bottom and tapers gently towards the top. In the background, there is a softly blurred hint of a light-colored wall, giving the scene a neutral and calming atmosphere. The camera slowly circles around the vase, showcasing its shiny finish and graceful contours."
+  },
+  {
+    "prompt_en": "a white cat",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "white"
+      }
+    },
+    "refined_prompt": "A charming white cat with soft, fluffy fur is gracefully sitting on a sunny window sill. Sunlight pours through the window, casting a warm, golden glow on its fur, highlighting its elegant, pristine appearance. The cat is gazing outside with mesmerizing blue eyes, its tail gently curling around its paws. There are a few delicate shadows cast by nearby plants, adding a subtle touch of nature to the scene. The camera captures this serene moment with a gentle zoom, enhancing the tranquil atmosphere."
+  },
+  {
+    "prompt_en": "a pink bird",
+    "dimension": [
+      "color"
+    ],
+    "auxiliary_info": {
+      "color": {
+        "color": "pink"
+      }
+    },
+    "refined_prompt": "A vibrant pink bird is perched on a slender tree branch, set against a backdrop of lush green foliage. The bird's feathers gleam in the soft, dappled sunlight filtering through the leaves. It has a smooth, sleek plumage and a delicate beak. The bird occasionally turns its head and flicks its tail gracefully. The camera slowly zooms in, capturing the intricate details of the bird's feathers and the serene ambiance of the surrounding nature."
+  },
+  {
+    "prompt_en": "a sink on the right of a toilet, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "sink",
+          "object_b": "toilet",
+          "relationship": "on the right of"
+        }
+      }
+    },
+    "refined_prompt": "The scene shows a front view of a bathroom with a toilet on the left and a sink on the right, illuminated by soft, even lighting. The toilet has a classic design with a white seat and lid, while the sink is mounted on a simple vanity, complete with a sleek chrome faucet. The surface of the vanity is clean and uncluttered. A neutral-colored tile wall serves as the backdrop, creating a clean and modern atmosphere. The camera is positioned to capture both the toilet and sink in a balanced composition for a tidy and clear view."
+  },
+  {
+    "prompt_en": "a kite on the top of a skateboard, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "kite",
+          "object_b": "skateboard",
+          "relationship": "on the top of"
+        }
+      }
+    },
+    "refined_prompt": "A brightly colored kite with a vibrant red, yellow, and blue diamond-shaped pattern rests on top of a skateboard, viewed from the front. The skateboard's deck features a dark, textured wood finish, while its wheels are a vivid shade of orange. The kite's tail, made of alternating colored ribbons, drapes over the sides of the skateboard, creating a playful and eye-catching contrast. The scene captures the objects in clear daylight, accentuating their colors and patterns against a neutral backdrop. The camera gently zooms in to focus more closely on the details of the kite and skateboard."
+  },
+  {
+    "prompt_en": "a skateboard on the bottom of a surfboard, front view",
+    "dimension": [
+      "spatial_relationship"
+    ],
+    "auxiliary_info": {
+      "spatial_relationship": {
+        "spatial_relationship": {
+          "object_a": "skateboard",
+          "object_b": "surfboard",
+          "relationship": "on the bottom of"
+        }
+      }
+    },
+    "refined_prompt": "The video shows a close-up, front view of a skateboard affixed to the bottom of a surfboard. The contrasting textures are striking, with the smooth, glossy surface of the surfboard sharply juxtaposed against the rougher surface of the skateboard deck. The skateboard's wheels and trucks are clearly visible, neatly attached to the underside of the surfboard. In the background, there's a soft oceanic ambiance, with gentle waves lapping at the shore under a subtly clouded sky."
+  },
+  {
+    "prompt_en": "lighthouse",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "lighthouse"
+        }
+      }
+    },
+    "refined_prompt": "A tall, classic lighthouse stands majestically against the backdrop of a clear blue sky. The camera begins with a wide shot, capturing the white tower with red accents and the surrounding rocky shoreline. As the camera gradually moves in closer, the details of the lighthouse become more pronounced, revealing its windows and the contrasting red top where the beacon is housed. Sunlight reflects against the structure, highlighting its white paint. The camera subtly pans around the lighthouse, offering a view of the sparkling ocean in the distance."
+  },
+  {
+    "prompt_en": "phone booth",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "phone booth"
+        }
+      }
+    },
+    "refined_prompt": "A classic red British phone booth stands on a cobblestone street, surrounded by charming historic buildings. The booth's glossy paint shines in the soft afternoon light. Its iconic glass panels reflect the surrounding architecture, and the black \"TELEPHONE\" inscription stands out prominently at the top. The camera slowly zooms in, capturing small details like the brass door handle and the interior rotary dial, while the atmospheric lighting adds a nostalgic touch to the scene."
+  },
+  {
+    "prompt_en": "art gallery",
+    "dimension": [
+      "scene"
+    ],
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "art gallery"
+        }
+      }
+    },
+    "refined_prompt": "An elegant art gallery interior is displayed with clean, white walls and soft, ambient lighting. In the foreground, a modern sculpture made of smooth, curved metal is positioned on a pedestal, catching light on its polished surface. To the side, a large abstract painting with bold, vibrant colors hangs on the wall. The wooden floor adds warmth to the otherwise minimalist setting. The camera slowly glides from left to right, highlighting the artwork and creating a tranquil and contemplative atmosphere."
+  },
+  {
+    "prompt_en": "The bund Shanghai, with an intense shaking effect",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "The video begins with a view of The Bund in Shanghai, showcasing its impressive skyline with iconic buildings lining the riverside. The scene features a dynamic, intense shaking effect, adding a dramatic and vibrant quality to the bustling cityscape. The camera moves slightly up and down, enhancing the feeling of movement and energy. The lights from the buildings and the reflection on the river create a vibrant and illuminated atmosphere, capturing the essence of Shanghai's lively urban environment."
+  },
+  {
+    "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, tilt down",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "The video begins with a breathtaking aerial view of snow-blanketed rocky mountain peaks towering over deep canyons. The snow-covered peaks glisten under the soft light, creating a serene and majestic atmosphere. As the camera tilts down, it reveals the canyons below, which twist and bend dramatically through the high-elevated terrain. The shadows cast by the surrounding mountains enhance the depth and contours of the canyons, highlighting their intricate shapes and textures as the camera smoothly pans downwards."
+  },
+  {
+    "prompt_en": "A panda drinking coffee in a cafe in Paris, with an intense shaking effect",
+    "dimension": [
+      "temporal_style"
+    ],
+    "refined_prompt": "In a bustling café in Paris, a panda is humorously seated at a small, round table, enjoying a cup of coffee. The panda, with its characteristic black and white fur and expressive eyes, holds the delicate coffee cup delicately between its paws. The café has an elegant Parisian ambiance, complete with ornate decor and soft, warm lighting. An intense shaking effect adds a surreal, whimsical vibe to the scene, making both the panda and the surroundings vibrate slightly. The camera captures a dynamic view, panning around to showcase the charming interior of the café while maintaining focus on the unusual yet captivating sight of the coffee-sipping panda."
+  },
+  {
+    "prompt_en": "A cat wearing sunglasses and working as a lifeguard at a pool.",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "A quirky scene features a cat donning a pair of oversized sunglasses while perched confidently on a poolside lifeguard chair. The cat, with a luxurious coat and a relaxed demeanor, looks out over the calm pool waters. Around its neck is a small, red lifeguard whistle hanging from a string. Behind the cat, the pool glistens under a bright sunny sky, creating a playful and whimsical atmosphere. The camera slowly zooms in, capturing the cat's laid-back expression and cool sunglasses."
+  },
+  {
+    "prompt_en": "A super robot protecting city",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "A massive super robot stands tall amidst the cityscape, its metallic armor gleaming in the daylight. The robot's impressive form is equipped with intricate details, including reinforced joints, a glowing core in its chest, and bright blue energy lines running along its frame. The robot gazes over the city with an authoritative presence, its posture strong and vigilant. Behind the robot, the city skyline stretches out with skyscrapers and buildings. A gentle breeze sways in the environment, adding a dynamic feel to the scene. The camera slowly pans from the ground up, capturing the robot's entire stature against the backdrop of the city."
+  },
+  {
+    "prompt_en": "a teddy bear is swimming in the ocean.",
+    "dimension": [
+      "overall_consistency"
+    ],
+    "refined_prompt": "A charming teddy bear floats in the calm ocean, gently bobbing with the rhythm of the waves. The plush teddy is light brown with a soft, cuddly appearance, its arms spread wide as it drifts slightly up and down with the water. Sunlight shimmers on the ocean's surface, creating a serene and playful atmosphere. The camera captures a close-up of the teddy bear from above, focusing on its joyful expression and subtle movements in the soothing water."
+  },
+  {
+    "prompt_en": "A person is washing dishes",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A woman is standing at a kitchen sink, washing dishes with precision and care. She is wearing a cheerful yellow blouse, her sleeves rolled up to prevent them from getting wet. Her hands skillfully maneuver a soapy sponge over a plate, creating suds that glisten in the soft light above the sink. The kitchen is warm and inviting, with wooden cabinets and a vase of fresh flowers on the countertop. Water flows gently from the faucet, rinsing the soap away as the woman places the cleaned plate into a drying rack nearby. The camera smoothly pans to encircle the woman, capturing her focus and the cozy kitchen atmosphere."
+  },
+  {
+    "prompt_en": "A person is skydiving",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A person, involved in a thrilling skydiving adventure, is captured in mid-air with an expansive view of the earth beneath. The individual is wearing a sleek, aerodynamic jumpsuit and a helmet with a clear visor. Their body is perfectly positioned in a freefall form, arms spread wide, and legs slightly bent for stability. Below, the landscape unfolds with patches of green fields and winding rivers, creating a beautiful contrast against the blue sky and fluffy white clouds. The camera gently follows, capturing the exhilarating sense of freedom and adventure."
+  },
+  {
+    "prompt_en": "A person is rock climbing",
+    "dimension": [
+      "human_action"
+    ],
+    "refined_prompt": "A determined young man is rock climbing on a rugged cliff face, focusing intently as he navigates upwards. He is wearing a snug-fitting blue t-shirt and durable climbing pants, with a safety harness secured around his waist. His muscular arms and strong grip are evident as he reaches for a higher handhold. The sunlight casts a dramatic shadow on the cliff, enhancing the rugged texture of the rock. The camera captures a close-up of his concentrated expression, moving slightly to follow his upward progress."
+  },
+  {
+    "prompt_en": "In a still frame, a tranquil Japanese tea ceremony room, with tatami mats, a delicate tea set, and a bonsai tree in the corner",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "The scene captures a serene Japanese tea ceremony room, bathed in soft, natural lighting. The room features traditional tatami mats that cover the floor, creating a warm and welcoming atmosphere. In the center, a delicate tea set is elegantly arranged, consisting of intricately designed tea bowls and a graceful tea pot, all placed on a small, polished wooden tray. In the corner of the room stands a carefully pruned bonsai tree, adding an element of nature and tranquility to the space. The composition exudes a sense of calm and harmony, inviting viewers to appreciate the beauty of the traditional setting."
+  },
+  {
+    "prompt_en": "A tranquil tableau of a peaceful orchid garden showcased a variety of delicate blooms",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "The camera pans slowly over a tranquil orchid garden, showcasing a variety of delicate blooms in a serene and peaceful atmosphere. The soft lighting illuminates the vibrant colors of the orchids, highlighting their exquisite petals and intricate patterns. A gentle breeze rustles the leaves, adding a sense of calm and natural beauty to the scene. The camera continues to sweep across the garden, capturing the harmony and quiet elegance of this enchanting space."
+  },
+  {
+    "prompt_en": "In a still frame, parking lot",
+    "dimension": [
+      "temporal_flickering"
+    ],
+    "refined_prompt": "In a still frame, a parking lot is depicted with several parked cars arranged in neat rows. The scene is illuminated by overhead lights, casting a bright and even glow across the area, highlighting the various colors of the cars. Painted lines on the asphalt define each parking space, and a small tree can be seen at the edge of the lot, providing a touch of greenery. The atmosphere is orderly and calm, with a clear sky above, enhancing the overall visibility of the scene."
+  },
+  {
+    "prompt_en": "a motorcycle cruising along a coastal highway",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "A sleek motorcycle is cruising smoothly along a winding coastal highway, flanked by cliffs on one side and the vast ocean on the other. The motorcycle's gleaming chrome and its rider's black leather jacket catch the sunlight, creating a dynamic and adventurous atmosphere. The rider maintains a relaxed posture as the motorcycle effortlessly navigates the curves of the road. The ocean sparkles under the bright sun, and the sound of the waves can almost be felt as the camera follows the motorcycle's journey along the scenic route."
+  },
+  {
+    "prompt_en": "an airplane accelerating to gain speed",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "An airplane is seen from a side view as it accelerates along an airport runway, ready to gain speed for takeoff. The plane's sleek metallic body catches the sunlight, creating a reflective effect. The engines roar with power, emitting visible streams of exhaust as the wheels roll swiftly on the tarmac. The camera smoothly tracks the airplane's motion, highlighting its impressive acceleration and the dynamic nature of the scene. The background features other airport facilities and a clear blue sky."
+  },
+  {
+    "prompt_en": "a person swimming in ocean",
+    "dimension": [
+      "motion_smoothness"
+    ],
+    "refined_prompt": "A woman is gracefully swimming in the ocean, her long hair flowing behind her as she moves through the water. The sunlight sparkles on the ocean surface, creating a shimmering effect. She wears a bright-colored swimsuit that stands out against the blue of the water. Her movements are smooth and fluid, with her arms cutting through the waves as she swims towards the horizon. The camera follows her from a low angle, capturing the gentle rise and fall of the ocean around her, enhancing the serene and tranquil atmosphere of the scene."
+  },
+  {
+    "prompt_en": "a person washing the dishes",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "A charming woman is washing dishes at a kitchen sink. She is in her late twenties, with long, wavy brown hair tied back, and wearing a light blue blouse with rolled-up sleeves. Her expression is content and relaxed as she focuses on her task. The kitchen is bathed in warm, natural light coming through a nearby window, adding a cozy atmosphere to the scene. The woman stands slightly angled towards the camera, with her hands immersed in soapy water, gently scrubbing a plate. The camera slowly zooms in to capture the details of her actions, highlighting the splashes of water and bubbles as she washes."
+  },
+  {
+    "prompt_en": "a train accelerating to gain speed",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "A sleek modern train begins to accelerate along a set of steel tracks surrounded by verdant green trees. As the train picks up speed, its aerodynamic design makes it appear to slice swiftly through the air. The camera pans smoothly alongside the train, showcasing its shiny exterior and highlighting the contrast of its metallic body against the natural background. The train's powerful motion is emphasized by the blur of the trees as it races past. The setting sun in the sky casts a warm, golden glow, enhancing the sense of dynamic speed and energy."
+  },
+  {
+    "prompt_en": "a giraffe running to join a herd of its kind",
+    "dimension": [
+      "dynamic_degree"
+    ],
+    "refined_prompt": "A graceful giraffe, with its long neck and distinctive patches, is seen running gracefully across the savannah towards a distant herd of other giraffes. The terrain is a mix of golden grasslands and scattered acacia trees, bathed in the warm light of the afternoon sun. As the giraffe moves swiftly, its legs stretch out in a rhythmic motion, and its tail gently sways side to side. The camera follows the giraffe, panning smoothly to capture its approach, until it reaches the group, blending seamlessly with the other giraffes in the herd."
+  },
+  {
+    "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, animated style",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "animated style"
+      }
+    },
+    "refined_prompt": "In an animated style, the scene depicts snow-blanketed rocky mountain peaks towering above deep canyons. The snow glistens under the soft light, highlighting the rugged and jagged edges of the mountains. The canyons, with their twisting and bending paths, carve a dramatic landscape through the high elevations. Shadows from the mountains stretch across the scene, creating an atmosphere of mystery and grandeur. The camera smoothly pans across the landscape, capturing the contrast between the bright snow and dark shadows, enhancing the serene yet imposing beauty of the mountains."
+  },
+  {
+    "prompt_en": "A cute happy Corgi playing in park, sunset, black and white",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "black and white"
+      }
+    },
+    "refined_prompt": "In a picturesque park at sunset, a cute and happy Corgi is energetically playing. The scene is captured in black and white, giving it a timeless and classic feel. The Corgi, with its distinctive short legs and fluffy coat, joyfully runs around, its ears perked and tail wagging. The dog occasionally leaps into the air, playfully chasing after leaves carried by a gentle breeze. The silhouette of trees frames the scene as the setting sun casts long shadows across the grass. The camera smoothly follows the Corgi's lively movements to capture the essence of the joyful moment."
+  },
+  {
+    "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, in cyberpunk style",
+    "dimension": [
+      "appearance_style"
+    ],
+    "auxiliary_info": {
+      "appearance_style": {
+        "appearance_style": "in cyberpunk style"
+      }
+    },
+    "refined_prompt": "The video begins with a sweeping aerial view of snow-blanketed rocky mountain peaks surrounding deep, shadowed canyons. The snow glistens under a vivid neon glow, reflecting the cyberpunk style. The camera smoothly glides above the twisting and bending canyons, revealing the intricate patterns they carve through the high-elevated mountains. Bright neon lights in hues of blue and purple infuse the landscape with a surreal atmosphere, enhancing the futuristic theme. The scene captures the stark contrast between the cool shadows of the canyons and the illuminated peaks."
+  }
+]
