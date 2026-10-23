@@ -213,6 +213,9 @@ def main():
         num_scales - 2: 0.60,
         num_scales - 1: 0.30,
     }
+    _sched = METHODS["ours"].get("prune_keep_schedule")  # keep schedule override for the last scales
+    if _sched:
+        prune_ratios = {num_scales - len(_sched) + i: float(k) for i, k in enumerate(_sched)}
 
     for method in cli.methods:
         generate_method(pipe, args, cli, rows, method, prune_ratios)

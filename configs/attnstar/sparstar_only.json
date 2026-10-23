@@ -13,6 +13,12 @@
     "prune_w_text": 2.0,
     "prune_attn_text_query_gate": 1.0,
     "variant": "sparstar_only",
-    "sparstar": 1
+    "sparstar": 1,
+    "prune_keep_schedule": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
   }
 }

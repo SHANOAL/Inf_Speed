@@ -363,6 +363,9 @@ def main():
         num_scales - 2: 0.60,
         num_scales - 1: 0.30,
     }
+    _sched = METHODS["ours"].get("prune_keep_schedule")  # keep schedule override for the last scales
+    if _sched:
+        args.prune_ratios_per_scale = {num_scales - len(_sched) + i: float(k) for i, k in enumerate(_sched)}
     tower_split = args.tower_split_index
     tau_list = [args.tau_image] * tower_split + [args.tau_video] * (num_scales - tower_split)
     cfg_list = [args.cfg] * (num_scales - cli.bypass_last_n) + [1] * cli.bypass_last_n

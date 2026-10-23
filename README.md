@@ -38,7 +38,7 @@ At each pruned scale (the final four scales, keeping 80/70/60/30 % of the tokens
 
 Configurations live in [`configs/attnstar/`](configs/attnstar): `attnstar_v2` (current method),
 `attnstar_v2_ctx4` (with context tokens), `attnstar_v2_sparstar` (pruning + block-sparse attention),
-`sparstar_only` (block-sparse attention alone; run with `generate_dense_subset.py`), `paper_v0`
+`sparstar_only` (block-sparse attention alone, keep schedule of ones), `paper_v0`
 (earlier version with spatial attention scoring and query gating) and `random_rc` (random selection,
 same budget and recovery).
 
@@ -109,6 +109,9 @@ python tools/eval/eval_full_reference_metrics.py --reference_dir out/dense/vbenc
 python experiments/paired_stats.py ours=out/fidelity/attnstar_v2/results.json \
     faststar=out/fidelity/faststar/results.json
 ```
+
+The keep ratios of the last four scales can be set per config with `prune_keep_schedule`
+(default `[0.8, 0.7, 0.6, 0.3]`).
 
 Other drivers: `generate_vbench_480p_methods.py`, `generate_vbench_i2v_methods.py`
 (`--full_info`, `--image_dir`), `generate_interact_methods.py` (`--method`, `--config`,
