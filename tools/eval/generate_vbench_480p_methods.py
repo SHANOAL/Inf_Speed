@@ -15,6 +15,8 @@ from tools.eval import generate_vbench_methods as base
 
 
 OURS_CONFIG_KEYS = {
+    "sparstar", "sparstar_density", "sparstar_block_size",
+
     "prune_ctx_pool",
 
     "prune_attn_temporal_mode",

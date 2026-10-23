@@ -15,6 +15,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
+from infinity.models import sparstar  # block-sparse attention (SparSTAR, MIT)
 from infinity.models.rope import apply_rotary_emb
 from baselines.kv_pooling import variance_guided_spatial_pool_kv, should_pool_kv
 from infinity.utils.sequence_parallel import sp_all_to_all, SequenceParallelManager as sp_manager
@@ -278,6 +279,11 @@ class SelfAttention(nn.Module):
             scale = self.head_dim**-0.5
             if self.use_flex_attn and attn_fn is not None:
                 attn_output = attn_fn(query_states.to(value_states.dtype), key_states.to(value_states.dtype), value_states, scale=scale).transpose(1, 2).reshape(B, L, C)
+            elif sparstar.is_sparse_scale(scale_ind):
+                # block-sparse attention over [cached prefix | current tokens]; with token pruning the
+                # current tokens are the selected ones, so both savings compose
+                attn_output = sparstar.block_sparse_attention(query_states.to(torch.bfloat16), key_states.to(torch.bfloat16), value_states.to(torch.bfloat16), scale, scale_ind)
+                attn_output = attn_output.transpose(1, 2).reshape(B, L, C)
             else:
                 # fa2, flash_attn_func input/output should be (batch_size, seqlen, nheads, headdim)
                 from flash_attn import flash_attn_qkvpacked_func, flash_attn_func

@@ -216,6 +216,9 @@ def configure_method(args, method):
     args.prune_skip_code = cfg.get("prune_skip_code", "zero")
     args.prune_skip_code_beta = cfg.get("prune_skip_code_beta", 1.0)
     args.prune_ctx_pool = cfg.get("prune_ctx_pool", 0)
+    args.sparstar = cfg.get("sparstar", 0)
+    args.sparstar_density = cfg.get("sparstar_density", "")
+    args.sparstar_block_size = cfg.get("sparstar_block_size", 128)
     args.prune_zero_fill = False
     args.prune_recover_mode = cfg.get("prune_recover_mode", "pu")
     args.prune_recover_code_mask = cfg.get("prune_recover_code_mask")
@@ -332,7 +335,7 @@ def main():
             "prune_attn_temporal_smooth", "prune_attn_shared_fraction",
             "prune_attn_text_query_gate",
             "prune_attn_temporal_mode", "prune_attn_temporal_anchors", "prune_attn_random_select",
-            "prune_skip_code", "prune_skip_code_beta", "prune_ctx_pool",
+            "prune_skip_code", "prune_skip_code_beta", "prune_ctx_pool", "sparstar", "sparstar_density", "sparstar_block_size",
             "prune_recover_mode", "prune_recover_code_mask",
             "prune_recover_neighbors", "prune_recover_alpha",
         }

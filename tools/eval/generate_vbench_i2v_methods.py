@@ -26,6 +26,8 @@ from tools.run_infinity import save_video  # noqa: E402
 
 
 OURS_CONFIG_KEYS = {
+    "sparstar", "sparstar_density", "sparstar_block_size",
+
     "prune_ctx_pool",
 
     "prune_attn_temporal_mode",

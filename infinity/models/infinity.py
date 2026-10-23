@@ -30,6 +30,7 @@ from infinity.models.rope import precompute_rope4d_freqs_grid
 from infinity.models.flex_attn_mask import build_flex_attn_func
 from infinity.schedules.dynamic_resolution import get_dynamic_resolution_meta, get_first_full_spatial_size_scale_index, get_activated_h_div_w_templates
 from infinity.models.apg import normalized_guidance
+from infinity.models import sparstar
 # KV pooling is handled inside basic.py's SelfAttention
 from infinity.utils.sequence_parallel import sp_split_sequence_by_dim, sp_gather_sequence_by_dim, SequenceParallelManager as sp_manager
 
@@ -592,6 +593,7 @@ class Infinity(nn.Module):
         image_scale_repetition = np.array(json.loads(args.image_scale_repetition))
         video_scale_repetition = np.array(json.loads(args.video_scale_repetition))
         scales_in_one_clip = first_full_spatial_size_scale_index + 1
+        sparstar.configure(args, len(scale_schedule), scales_in_one_clip)  # no-op unless args.sparstar
         assert len(image_scale_repetition) == len(video_scale_repetition), f'{len(image_scale_repetition)} != {len(video_scale_repetition)}'
         assert len(image_scale_repetition) == scales_in_one_clip, f'{len(image_scale_repetition)} != {scales_in_one_clip}'
         total_steps = image_scale_repetition.sum() + video_scale_repetition.sum() * (len(scale_schedule)//len(video_scale_repetition)-1) + 1 # +1 is prefix text token forward step
@@ -1579,6 +1581,7 @@ class Infinity(nn.Module):
                 last_stage = self.embeds_codes2input(last_stage, bs//B)
         summed_codes = torch.cat(summed_codes, dim=-3)
         for b in self.unregistered_blocks: b.attn.kv_caching(False)
+        sparstar.reset()
         if hasattr(self, '_stagevar_output_cache'):
             del self._stagevar_output_cache
         if hasattr(self, '_prune_pu_cache'):

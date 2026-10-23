@@ -215,6 +215,13 @@ def configure_method(args, method):
     args.prune_recover_code_mask = cfg.get("prune_recover_code_mask")
     args.prune_recover_neighbors = cfg.get("prune_recover_neighbors", 4)
     args.prune_recover_alpha = cfg.get("prune_recover_alpha", 1.0)
+    args.prune_attn_temporal_mode = cfg.get("prune_attn_temporal_mode", "column")
+    args.prune_attn_temporal_anchors = cfg.get("prune_attn_temporal_anchors", 1024)
+    args.prune_attn_random_select = cfg.get("prune_attn_random_select", False)
+    args.prune_ctx_pool = cfg.get("prune_ctx_pool", 0)
+    args.sparstar = cfg.get("sparstar", 0)
+    args.sparstar_density = cfg.get("sparstar_density", "")
+    args.sparstar_block_size = cfg.get("sparstar_block_size", 128)
     args.prune_mode = "prune"
 
 

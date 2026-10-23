@@ -30,9 +30,17 @@ At each pruned scale (the final four scales, keeping 80/70/60/30 % of the tokens
    `pool x pool` windows and processed alongside the selected tokens, then discarded, so that
    selected tokens still attend to a low-resolution summary of the skipped area.
 
+4. **Block-sparse attention (optional, `sparstar`).** The block-sparse attention of
+   [SparSTAR](https://github.com/JIGSAW0612/SparSTAR) is integrated (off by default). With token
+   pruning on, it runs over the cached prefix and the *selected* tokens, so the two savings compose:
+   pruning removes whole tokens (attention, MLP and projections), block sparsity removes key blocks
+   among the tokens that remain.
+
 Configurations live in [`configs/attnstar/`](configs/attnstar): `attnstar_v2` (current method),
-`attnstar_v2_ctx4` (with context tokens), `paper_v0` (earlier version with spatial attention
-scoring and query gating) and `random_rc` (random selection, same budget and recovery).
+`attnstar_v2_ctx4` (with context tokens), `attnstar_v2_sparstar` (pruning + block-sparse attention),
+`sparstar_only` (block-sparse attention alone; run with `generate_dense_subset.py`), `paper_v0`
+(earlier version with spatial attention scoring and query gating) and `random_rc` (random selection,
+same budget and recovery).
 
 ## Results so far
 
@@ -64,7 +72,8 @@ cache. Filling skipped positions with sampled or expected codes instead of zero 
 fidelity in every setting we tried.
 
 In progress: 480p T2V, 720p I2V (1,118 VBench-I2V examples), interactive long-video generation,
-context tokens, speed/quality frontiers and VBench.
+context tokens, hardware-matched comparison with SparSTAR, pruning + block-sparse attention,
+speed/quality frontiers and VBench.
 
 ## Evaluation protocol
 
@@ -112,6 +121,7 @@ Tests (inside the project environment): `python tests/test_ids_anchor.py`,
 
 ```
 infinity/models/st_token_pruning.py   IDS, RC, context tokens
+infinity/models/sparstar.py           block-sparse attention (from SparSTAR)
 infinity/models/infinity.py           pruning hooks in the InfinityStar inference loops
 baselines/                            FastSTAR, StepVAR, FastVAR, SparseVAR, ToMe, StageVAR
 tools/eval/                           generation and evaluation drivers
@@ -124,5 +134,7 @@ tests/                                unit tests
 
 Built on [InfinityStar](https://github.com/FoundationVision/InfinityStar) (MIT License,
 copyright FoundationVision); its original README is kept in
-[`docs/INFINITYSTAR_README.md`](docs/INFINITYSTAR_README.md). Baselines re-implement FastVAR,
+[`docs/INFINITYSTAR_README.md`](docs/INFINITYSTAR_README.md). `infinity/models/sparstar.py` is taken
+from [SparSTAR](https://github.com/JIGSAW0612/SparSTAR) (MIT License, copyright SparSTAR Authors),
+with the default changed to off. Baselines re-implement FastVAR,
 SparseVAR, StepVAR, FastSTAR and ToMe for the spacetime token grid.
